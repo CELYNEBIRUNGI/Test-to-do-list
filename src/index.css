@@ -89,7 +89,7 @@ body {
   text-decoration: underline;
 }
 
-.gitems {
+.items {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #dddd;
