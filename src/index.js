@@ -1,5 +1,5 @@
 import displayList from './modules/display.js';
-import { addList, removeList, editList } from './modules/operation.js';
+import { addList, removeList, editList } from './modules/operations.js';
 
 const allList = JSON.parse(localStorage.getItem('todo')) || [];
 const bkList = document.querySelector('.lists');
